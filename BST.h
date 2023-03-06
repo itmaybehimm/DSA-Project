@@ -124,7 +124,7 @@ public:
         }
         return temp;
     }
-    void findPredecessor(Node *root, int key, Node *&pred)
+    void findPredecessor(node *root, int key, node *&pred)
     {
         // base case
         if (root == NULL)
